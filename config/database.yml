@@ -31,7 +31,7 @@ development:
   # the same name as the operating system user running Rails. test
   #username: Blog
 
-  # The password associated with the postgres role (username).f
+  # The password associated with the postgres role (username)
   #password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
