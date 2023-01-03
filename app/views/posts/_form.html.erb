@@ -20,6 +20,10 @@
     <%= form.label :body, style: "display: block" %>
     <%= form.text_area :body %>
   </div>
+  <div>
+    <%= form.label :published_at, style: "display: block" %>
+    <%= form.datetime_field :published_at %>
+  </div>
 
   <div>
     <%= form.submit %>
