@@ -1,6 +1,24 @@
 
+<div id="<%= dom_id @post %>">
+  <p>
+    <strong>Title:</strong>
+    <%= @post.title %>
+  </p>
 
-<%= render @post %>
+  <p>
+    <strong>Author:</strong>
+    <%= @post.user.name %>
+  </p>
+    <p>
+    <strong>Body:</strong>
+    <%= @post.body %>
+  </p>
+  <p>
+    <strong>Published at:</strong>
+    <%= @post.published_at.strftime("%d.%m.%Y") %>
+  </p>
+</div>
+
 
 <div>
   <%= link_to "Edit this post", edit_post_path(@post) %> |
